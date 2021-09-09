@@ -26,7 +26,7 @@ Agregar la dependencia:
 <dependency>
     <groupId>com.github.unq-ui</groupId>
     <artifactId>unq-spotify</artifactId>
-    <version>v1.0.0</version>
+    <version>v1.0.2</version>
 </dependency>
 ```
 
@@ -61,6 +61,9 @@ fun getPlaylist(playlistId: String): Playlist
 
 // @Throw UserException si el userId no existe
 fun getUser(userId: String): User
+
+// @Throw UserException si el userId no existe
+fun editUser(userId: String, editUser: EditUser): User
 
 // @Throw UserException si no se encuentra un email registrado
 fun login(email: String, password: String): User
@@ -163,4 +166,15 @@ class UserDraft(
 )
 ```
 
+### EditUser
+
+Es la representación de un usuario para realizar una modificación
+
+```kotlin
+class UserDraft(
+    var image: String,
+    var password: String,
+    var displayName: String
+)
+```
 

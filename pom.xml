@@ -5,7 +5,7 @@
 
     <groupId>org.github.unqui</groupId>
     <artifactId>2021s2-spotify</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <packaging>jar</packaging>
 
     <name>org.github.unq-ui 2021s2-spotify</name>

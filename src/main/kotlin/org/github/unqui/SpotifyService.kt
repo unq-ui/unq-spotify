@@ -85,4 +85,12 @@ class SpotifyService(private val listSongs: MutableList<Song>, private val listP
         return listSongs.filter { it.name.contains(name, true) }
     }
 
+    fun editUser(userId: String, editUser: EditUser): User {
+        val user = getUser(userId)
+        user.displayName = editUser.displayName
+        user.image = editUser.image
+        user.password = editUser.password
+        return user
+    }
+
 }

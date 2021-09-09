@@ -6,3 +6,5 @@ class PlayListDraft(var name: String, var description: String, var image: String
 
 class UserDraft(var email: String, var image: String, var password: String, var displayName: String)
 
+class EditUser(var image: String, var password: String, var displayName: String)
+
