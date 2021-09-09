@@ -1,6 +1,7 @@
 # UNQ » UIs » TP Spotify
 
-[![JitPack](https://jitpack.io/v/unq-ui/2021s1-twitter.svg)](https://jitpack.io/#unq-ui/2021s1-twitter)
+[![](https://jitpack.io/v/unq-ui/unq-spotify.svg)](https://jitpack.io/#unq-ui/unq-spotify)
+
 
 Spotify es una plataforma donde los usuarios pueden escuchar musica y generar sus propias playlist. Ademas, el usario puede marcar con like a las playlist de los demas usuarios.
 
@@ -23,9 +24,9 @@ Agregar la dependencia:
 
 ```xml
 <dependency>
-    <groupId>org.github.unqui</groupId>
-    <artifactId>2021s2-spotify</artifactId>
-    <version>1.0.0</version>
+    <groupId>com.github.unq-ui</groupId>
+    <artifactId>unq-spotify</artifactId>
+    <version>v1.0.0</version>
 </dependency>
 ```
 
