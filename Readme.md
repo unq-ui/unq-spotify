@@ -130,10 +130,10 @@ Es la representación de una song antes de ser guardada por el sistema
 
 ```kotlin
 class SongDraft(
-    val name: String,
-    val band: String,
-    val url: String,
-    val duration: Int
+    var name: String,
+    var band: String,
+    var url: String,
+    var duration: Int
 )
 ```
 
@@ -143,10 +143,10 @@ Es la representación de una playlist antes de ser guardada por el sistema
 
 ```kotlin
 class PlayListDraft(
-    val name: String,
-    val description: String,
-    val image: String,
-    val songs: MutableList<Song>
+    var name: String,
+    var description: String,
+    var image: String,
+    var songs: MutableList<Song>
  )
 ```
 
@@ -156,10 +156,10 @@ Es la representación de un usuario antes de ser guardado por el sistema
 
 ```kotlin
 class UserDraft(
-    val email: String,
-    val image: String,
-    val password: String,
-    val displayName: String
+    var email: String,
+    var image: String,
+    var password: String,
+    var displayName: String
 )
 ```
 

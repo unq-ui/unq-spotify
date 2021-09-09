@@ -1,8 +1,8 @@
 package org.github.unqui
 
-class SongDraft(val name: String, val band: String, val url: String, val duration: Int)
+class SongDraft(var name: String, var band: String, var url: String, var duration: Int)
 
-class PlayListDraft(val name: String, val description: String, val image: String,  val songs: MutableList<Song>)
+class PlayListDraft(var name: String, var description: String, var image: String,  var songs: MutableList<Song>)
 
-class UserDraft(val email: String, val image: String, val password: String, val displayName: String)
+class UserDraft(var email: String, var image: String, var password: String, var displayName: String)
 
